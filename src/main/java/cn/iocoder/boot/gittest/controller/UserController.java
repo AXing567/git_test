@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: Axing
  * @description: 用户控制器
  */
-@RestController
+@RestController("user")
 public class UserController {
 
     @GetMapping
