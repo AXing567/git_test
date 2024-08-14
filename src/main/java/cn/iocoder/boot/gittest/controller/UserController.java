@@ -14,4 +14,9 @@ public class UserController {
     public String getUser() {
         return "Axing";
     }
+
+    @GetMapping("")
+    public String getUser2() {
+        return "Axing";
+    }
 }
